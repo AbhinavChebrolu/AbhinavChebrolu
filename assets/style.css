@@ -307,6 +307,35 @@ body {
   width: auto;
 }
 
+#logoscrolling{
+  background-color: #ffffff;
+  height: 225px;
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+  
+}
+.logos {
+  display: inline-block;
+  animation: 15s slide infinite linear;
+}
+
+.logos img{
+  height: 75px;
+  margin: 0 40px;
+ 
+}
+
 .aboutheading {
 
   margin: 0px 0px 0px 0px;
@@ -390,6 +419,17 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.aboutcontenttext {
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  text-align: center;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+}
+
 .abouthighlight {
   text-align: left;
   font-family: 'DM Sans';
@@ -422,8 +462,8 @@ body {
   padding-left: 20px;
   padding-bottom: 20px;
   height: auto;
-  background-color: rgb(65, 65, 65);
-  color: white;
+  background-color: rgb(224, 224, 224);
+  color: rgb(86, 86, 86);
   font-family: 'DM Sans';
   font-size: 16px;
   margin: 0;
