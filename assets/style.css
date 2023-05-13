@@ -338,18 +338,18 @@ body {
 
 .aboutheading {
 
-  margin: 0px 0px 0px 0px;
+  margin: 0px 30px 0px 0px;
   display: flexbox;
   width: 100%;
   position: relative;
-  text-align: right;
-  justify-content: right;
+  text-align: left;
+  justify-content: left;
   height: 200px;
 
 }
 
 .head1 {
-  position: absolute;
+  position: overlay;
   right: 0%;
   top: 0%;
   font-family: 'DM Sans';
@@ -363,7 +363,7 @@ body {
 
 .head11 {
   position: absolute;
-  right: 0%;
+  left: 30%;
   top: 0%;
   font-family: 'DM Sans';
   font-size: 200px;
@@ -427,7 +427,7 @@ section .title1{
 }
 section .title1 span{
   color: #0E2431;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   position: relative;
   padding-bottom: 8px;
@@ -546,7 +546,7 @@ section .button button:hover{
 
 .footer a {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'DM Sans';
 }
 
