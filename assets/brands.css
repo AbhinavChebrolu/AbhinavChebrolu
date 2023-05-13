@@ -1,0 +1,163 @@
+
+.buttons,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-family: 'DM Sans';
+  width: 300px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}     
+button:hover,
+.buttons:focus {
+  color: #212121;
+  border-color: #888;
+  outline: #7AB8FF solid 3px
+}
+.buttons.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.buttons.button-primary:hover,
+.buttons.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+
+/* Read.cv */
+.buttons.button-read-cv {
+  color: #FFFFFF;
+  background-color: #393939;
+  border: 1px solid #FFFFFF;
+}
+.buttons.button-read-cv:hover,
+.buttons.button-read-cv:focus {
+  filter: brightness(90%);
+}
+
+/* Leetcode */
+.buttons.button-discord {
+  color: #ffffff;
+  background-color: #565351;
+}
+.buttons.button-discord:hover,
+.buttons.button-discord:focus {
+  filter: brightness(90%);
+}
+
+/* Figma */
+.buttons.button-figma {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.buttons.button-figma:hover,
+.buttons.button-figma:focus {
+  filter: brightness(90%);
+}
+
+/* GitHub */
+.buttons.button-github {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.buttons.button-github:hover,
+.buttons.button-github:focus {
+  filter: brightness(90%);
+}
+
+/* Instagram */
+.buttons.button-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.buttons.button-instagram:hover,
+.buttons.button-instagram:focus {
+  filter: brightness(90%);
+}
+
+/* LinkedIn */
+.buttons.button-linked {
+  color: #ffffff;
+  background-color: #2867b2;
+}
+.buttons.button-linked:hover,
+.buttons.button-linked:focus {
+  filter: brightness(90%);
+}
+
+/* Medium */
+.buttons.button-medium {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.buttons.button-medium:hover,
+.buttons.button-medium:focus {
+  filter: brightness(90%);
+}
+
+/* Notion */
+.buttons.button-notion {
+  color: #000000;
+  border: 1px solid #212121;
+  background-color: #ffffff;
+}
+.buttons.button-notion:hover,
+.buttons.button-notion:focus {
+  filter: brightness(90%);
+}
+
+/* Slack */
+.buttons.button-slack {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.buttons.button-slack:hover,
+.buttons.button-slack:focus {
+  filter: brightness(90%);
+}
+
+/* Telegram */
+.buttons.button-telegram {
+  color: #ffffff;
+  background-color: #3faee8;
+}
+.buttons.button-telegram:hover,
+.buttons.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* Twitter */
+.buttons.button-twit {
+  color: #ffffff;
+  background-color: #1da1f2;
+}
+.buttons.button-twit:hover,
+.buttons.button-twit:focus {
+  filter: brightness(90%);
+}
+
+/* WhatsApp */
+.buttons.button-whatsapp {
+  color: #ffffff;
+  background-color: #455a64;
+}
+.buttons.button-whatsapp:hover,
+.buttons.button-whatsapp:focus {
+  filter: brightness(90%);
+}
