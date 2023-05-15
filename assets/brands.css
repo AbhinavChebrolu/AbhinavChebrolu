@@ -57,10 +57,10 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Figma */
+/* Credly */
 .buttons.button-figma {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #004438;
   border: 1px solid #FFFFFF;
 }
 .buttons.button-figma:hover,
