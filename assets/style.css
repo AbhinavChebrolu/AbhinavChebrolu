@@ -17,6 +17,7 @@ header {
 .navbarNav {
 
   text-align: right;
+  transition: width 2s;
 }
 
 .navbar-brand {
@@ -30,6 +31,8 @@ header {
   border: 0;
   background-color: white;
   color: black;
+  width: 20px;
+  padding-right: 50px;
 }
 
 .navbar-toggler:focus {
@@ -297,7 +300,8 @@ body {
 #about {
   background-color: black;
   padding-top: 100px;
-  height: 550px;
+  padding-bottom: 100px;
+  height: auto;
   width: auto;
 }
 #contact {
@@ -450,6 +454,7 @@ section .title1 span::after{
 }
 section .button{
   margin: 3px 0;
+  align-items: center;
 }
 section .button button{
   outline: none;
@@ -462,6 +467,8 @@ section .button button{
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
+  align-items: center;
+  width: 200px;
 }
 section .button button:hover{
   border-color: #000000;
