@@ -84,7 +84,6 @@ header {
   padding-right: 30px;
 }
 
-
 /* HOMEPAGE */
 /* Homepage  */
 
@@ -329,6 +328,7 @@ body {
   }
   
 }
+
 .logos {
   display: inline-block;
   animation: 15s slide infinite linear;
@@ -336,6 +336,26 @@ body {
 
 .logos img{
   height: 75px;
+  margin: 0 40px;
+ 
+}
+
+@keyframes slide1 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+  
+}
+.badges {
+  display: inline-block;
+  animation: 35s slide1 infinite linear;
+}
+
+.badges img{
+  height: 125px;
   margin: 0 40px;
  
 }
