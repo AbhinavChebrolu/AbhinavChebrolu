@@ -7,17 +7,17 @@ window.onresize = function(event) {
   var href = window.location.href.split("/")
   var html_location = href[href.length-1]
   
-  if (window.innerWidth >= 960 && html_location !== "index.html") {
-      window.location = "index.html";
-  }
+/////  if (window.innerWidth >= 960 && html_location !== "index.html") {
+/////      window.location = "index.html";
+/////  }
   
   if (window.innerWidth < 960 && html_location !== "index-m.html") {
       window.location = "index-m.html";
   }
 
-  if (window.innerWidth >= 960 && html_location !== "index.html") {
-    window.location = "index.html";
-}
+/////  if (window.innerWidth >= 960 && html_location !== "index.html") {
+/////    window.location = "index.html";
+/////}
 gsap.to("#denis", {
     scrollTrigger:{
         trigger: "#back",
