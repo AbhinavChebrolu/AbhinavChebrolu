@@ -223,17 +223,24 @@ a{
     font-size: .75em;
 }
 
- 
+#globec .circle-hor {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(assets/images/india.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 #globec .circle-hor {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 40%;
+    width: 60%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    height: 40%;
-    box-shadow: inset 0px 0px 0px 0.15em white;
+    height: 60%;
+    /* box-shadow: inset 0px 0px 0px 0.15em rgb(67, 65, 65); */
     font-size: .75em;
 }
 
@@ -246,7 +253,7 @@ a{
     transform: translate(-50%, -50%);
     border-radius: 0%;
     height: 0.15em;
-    background: white;
+    background: rgb(234, 255, 0);
     font-size: .75em;
 }
 
@@ -418,6 +425,9 @@ a{
     text-align: left;
 }
 
+.stext a{
+    color: #424242;
+}
 
 .line{
     display: flex;
