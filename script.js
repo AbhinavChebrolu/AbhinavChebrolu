@@ -15,6 +15,11 @@ window.onresize = function(event) {
       window.location = "index-m.html";
   }
 
+
+let docTitle = document.title;
+window.addEventListener ("blur", () => {document.title = "Come Back ; (";});
+window.addEventListener ("focus", () => {document.title = docTitle;});
+
 /////  if (window.innerWidth >= 960 && html_location !== "index.html") {
 /////    window.location = "index.html";
 /////}
