@@ -312,7 +312,7 @@ body {
 
 #logoscrolling{
   background-color: #ffffff;
-  height: 225px;
+  height: 200px;
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
@@ -597,3 +597,180 @@ section .button button:hover{
   align-text: right;
   font-size: 16px;
 } */
+
+
+  
+  
+badgesflip {
+  margin: 0;
+  padding: 20px;
+  min-height: 50vh;
+  background-color: #ffffff;
+  font-family: "Neue Montreal";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flip-card {
+  margin: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 240px;
+  min-height: 240px;
+  height: auto;
+  background-color: #000000;
+  background-image: url(https://blog.paessler.com/hubfs/header/blog-fallbacks/it-insights.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  border-radius: 5%;
+  border-color: #ffffff;
+}
+
+.flip-card:nth-of-type(2) .flip-card-front,
+.flip-card:nth-of-type(2) .flip-card-back {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdJJjoEmAW7VJGYdVJBl4EsSdGraVJGe9le1KFX41GsQ1DUuJkmGqIQ1TsJyln7FBkfg&usqp=CAU);
+}
+
+.flip-card:nth-of-type(3) .flip-card-front,
+.flip-card:nth-of-type(3) .flip-card-back {
+  background-image: url(https://sigmatechnology.com/content/uploads/2022/01/aws-reinvent.jpg?x39992);
+}
+
+.flip-card:nth-of-type(4) .flip-card-front,
+.flip-card:nth-of-type(4) .flip-card-back {
+  /*background-image: none;
+  background-color: #696969;*/
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/887/656/desktop-wallpaper-hub-now-has-all-the-cool-from-microsoft-s-recent-event.jpg);
+}
+
+.flip-card:nth-of-type(5) .flip-card-front,
+.flip-card:nth-of-type(5) .flip-card-back {
+  background-image: url(https://www.nasstar.com/sites/default/files/2022-12/Nasstar_700x350_AWS-reinvent-BLOG-2.png);
+}
+
+.flip-card:nth-of-type(6) .flip-card-front,
+.flip-card:nth-of-type(6) .flip-card-back {
+  background-image: url(https://cast.ai/wp-content/uploads/2022/11/pr-cast-ai-reinvent-2022-cover.png);
+}
+
+.flip-card:nth-of-type(7) .flip-card-front,
+.flip-card:nth-of-type(7) .flip-card-back {
+  background-image: url(https://www.codurance.com/hubfs/Blog%20Post%20Imagery/AWS%20Reinvent%20Key%20Takeaways/Blog%20-%20AWS%20%E2%80%93%20Business%20Theme.png);
+}
+
+.flip-card:nth-of-type(8) .flip-card-front,
+.flip-card:nth-of-type(8) .flip-card-back {
+  background-image: url(https://i0.wp.com/duplocloud.com/wp-content/uploads/2022/02/2022_GLOBAL_Summits_LPHero_1440x657.png?w=1300&ssl=1);
+}
+
+.flip-card:nth-of-type(9) .flip-card-front,
+.flip-card:nth-of-type(9) .flip-card-back {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyI6W31ecbMc4ZbfCNRm2wzMlfPIeD4ZBYot3w2QmbvasbdbjboDXr92EPrnEFibnv_mY&usqp=CAU);
+}
+
+
+.flip-card-front {
+  transform: rotateY(0deg);
+}
+
+.flip-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+  box-shadow: 0 0 10px 5px #ff9900;
+}
+
+.flip-card-front::after,
+.flip-card-back::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  border-radius: 5%;
+}
+
+.flip-card-back .outer {
+  width: 100%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  z-index: 2;
+}
+
+.outer .icon {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.outer h3 {
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  /*line-height: 40px;*/
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+
+}
+
+.outer p {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.flip-card:hover .flip-card-front {
+  transform: rotateY(-180deg);
+}
+
+.flip-card:hover .flip-card-back {
+  transform: rotateY(0deg);
+}
+
+
+.flip-card-front .inner1 {
+  width: 100%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  z-index: 2;
+}
+
+.inner1 .icon {
+  width: 140px;
+  /*margin-bottom: 20px;*/
+}
+
+.inner1 h3 {
+  margin-bottom: 8px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.inner1 p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
+}
