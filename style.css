@@ -862,6 +862,11 @@ video{
   .flip-card:nth-of-type(9) .flip-card-back {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyI6W31ecbMc4ZbfCNRm2wzMlfPIeD4ZBYot3w2QmbvasbdbjboDXr92EPrnEFibnv_mY&usqp=CAU);
   }
+
+  .flip-card:nth-of-type(10) .flip-card-front,
+  .flip-card:nth-of-type(10) .flip-card-back {
+    background-image: url(https://e0.pxfuel.com/wallpapers/650/727/desktop-wallpaper-aesthetic-pink-cloud-aesthetic-pink-cloud-background-on-bat-aesthetic-pink-sky.jpg);
+  }
   
 
   .flip-card-front {
