@@ -5,6 +5,13 @@
     font-family: "Neue Montreal";
 }
 
+
+@font-face{
+    font-family:'Neue Montreal';
+    src: url('fonts/NeueMontreal-Regular.ttf');
+}
+
+
 html, body{
     width: 100%;
     height: 100%;
