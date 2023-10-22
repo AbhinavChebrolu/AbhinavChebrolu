@@ -1,0 +1,91 @@
+.navigation-accordion .cmp-nav-accordion{display:flex;height:100px;align-items:center;position:relative}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion{display:inline-block;width:100%}
+}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__header{margin:0;height:100%;display:flex;align-items:center;font-family:Akkurat Pro,Helvetica,Arial,sans-serif}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item{height:100%;position:relative;display:flex;flex-direction:column}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item{width:100%;height:auto}
+}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__icon{display:none}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel{box-shadow:none}
+}
+@media(min-width:1025px) and (max-width:1400px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel{width:517px}
+}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel--expanded{position:absolute;top:100px}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button{display:block;width:100%;height:100%;font-weight:normal;text-align:left;font-size:1rem;padding:0 22px;border-bottom:1px solid #ccc}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button{font-size:1.25rem;padding:2rem 1rem;border-bottom:1px solid #000;background-color:#fff}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button .cmp-nav-accordion__icon{display:inline-block;position:absolute;right:22px}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button .cmp-nav-accordion__icon::after{font-family:Material Icons;content:"keyboard_arrow_down";font-size:1.75rem;vertical-align:middle;font-weight:600}
+}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button:hover{background-color:#f6f6f6}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__button:hover .cmp-nav-accordion__title{border-bottom:3px solid #f9550d}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item--active{border-bottom:1px solid black}
+@media(min-width:1025px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item--active{background-color:#f6f6f6}
+}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item--active .cmp-nav-accordion__title{border-bottom:3px solid #f9550d}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__item--active .cmp-nav-accordion__icon::after{content:"keyboard_arrow_up"}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel--hidden{display:none}
+.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel--expanded{display:block}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion .cmp-nav-accordion__panel--expanded{display:inline-block;position:initial;width:100%}
+}
+.navigation-accordion .cmp-nav-accordion .dynamic-link a{font-size:1rem;font-weight:400}
+.navigation-accordion .cmp-nav-accordion .dynamic-link a:hover{font-weight:700}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion{height:auto}
+}
+.navigation-accordion .cmp-nav-accordion .nav-link-list{padding:2rem 2rem .5rem 2rem}
+.navigation-accordion .cmp-nav-accordion .nav-link-list .dynamic-link{padding-bottom:24px}
+@media(max-width:1024px){.navigation-accordion .cmp-nav-accordion .nav-link-list.nav-link-list-second{padding-top:0}
+}
+.navigation-accordion .cmp-nav-accordion .navigation-promo .cmp-teaser{margin:0}
+.navigation-accordion .cmp-nav-accordion .promo-card{padding:2rem}
+.navigation-accordion .cmp-nav-accordion .promo-card.promo-card-first{padding-right:0}
+header.experiencefragment #nav.small .nav-link-list .dynamic-link{padding-bottom:24px;padding-top:0;padding-left:0}
+header.experiencefragment #nav.large .cmp-nav-accordion .dynamic-link a{display:block}
+header.experiencefragment #nav.small .cmp-nav-accordion .dynamic-link a{font-size:1rem}
+header.experiencefragment #nav.small .cmp-nav-accordion .dynamic-link a::after{content:""}
+header.experiencefragment #nav.small .dynamic-link a::after{padding-left:4px}
+@media(max-width:1024px){header.experiencefragment #nav.small.active{padding-bottom:4rem}
+}
+@media(max-width:767px){header.experiencefragment #nav.small.active{padding-bottom:3rem}
+}
+.navigation-accordion-panel{position:absolute;background-color:white;width:427px;left:-50px;box-shadow:0 4px 30px rgba(0,0,0,0.15)}
+@media(max-width:1024px){.navigation-accordion-panel{width:100%;box-shadow:none}
+}
+.navigation-accordion-panel.navigation-accordion-panel--three{width:1280px}
+@media(max-width:1279px){.navigation-accordion-panel.navigation-accordion-panel--three{width:1024px;left:-225px}
+}
+@media(max-width:1024px){.navigation-accordion-panel.navigation-accordion-panel--three{width:100%}
+}
+.navigation-accordion-panel.navigation-accordion-panel--three.full-second-nav{left:-420px}
+@media(max-width:1279px){.navigation-accordion-panel.navigation-accordion-panel--three.full-second-nav{left:-328px}
+}
+.navigation-accordion-panel.navigation-accordion-panel--two{width:747px}
+@media(max-width:1024px){.navigation-accordion-panel.navigation-accordion-panel--two{width:100%}
+}
+.navigation-accordion-panel.navigation-accordion-panel--two-extra{width:855px}
+@media(max-width:1024px){.navigation-accordion-panel.navigation-accordion-panel--two-extra{width:100%}
+}
+.navigation-accordion-panel.navigation-accordion-panel--first-left{left:-315px}
+@media(max-width:1279px){.navigation-accordion-panel.navigation-accordion-panel--first-left{left:-225px}
+}
+.navigation-accordion-panel.navigation-accordion-panel--second-left{left:-415px}
+@media(max-width:1279px){.navigation-accordion-panel.navigation-accordion-panel--second-left{left:-225px}
+}
+.navigation-accordion-panel.navigation-accordion-panel--third-left{left:-715px}
+@media(max-width:1279px){.navigation-accordion-panel.navigation-accordion-panel--third-left{left:-225px}
+}
+.navigation-accordion-panel .promo-spacer-gold{background-color:#ece8db}
+@media(max-width:1024px){.navigation-accordion-panel .promo-spacer-gold{background-color:#f6f6f6}
+}
+@media(max-width:1024px){.navigation-accordion-panel{position:static}
+.navigation-accordion-panel .promo-spacer{padding:16px}
+}
+@media(min-width:1025px){.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__button:hover,.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__item:hover{background-color:#336d7e}
+.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__button{border-bottom:1px solid #000;color:white}
+.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__item--active{background-color:#336d7e}
+}
+@media(min-width:1025px) and (min-width:1025px){.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__button{border-bottom:0}
+.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__button--expanded{background-color:#336d7e}
+}
+@media(min-width:1025px) and (max-width:1024px){.navigation-accordion.cmp-nav-accordion--dark .cmp-nav-accordion .cmp-nav-accordion__button{color:#000}
+}
+header.experiencefragment #header-wrapper-dark .cmp-nav-accordion__panel .dynamic-link a{color:black}

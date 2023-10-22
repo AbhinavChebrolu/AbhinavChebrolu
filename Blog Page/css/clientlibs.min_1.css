@@ -1,0 +1,51 @@
+.search #pershingxsearch .search-filters,.search #pershingxsearch .search-field{display:none}
+.search #pershingxsearch #pershingx-filter-select{width:100%;display:block;float:left;margin-bottom:48px}
+.search #pershingxsearch #pershingx-filter-select span{display:block;float:left;margin:0 48px 0 0;font-size:16px;line-height:24px;font-weight:400;cursor:pointer}
+.search #pershingxsearch #pershingx-filter-select span:hover,.search #pershingxsearch #pershingx-filter-select span.active{border-bottom:2px solid #ce6209}
+.search #pershingxsearch #pershingx-filter-select .Pershing.X{display:none}
+.search #pershingxsearch .search-field{width:28%;max-width:auto;float:right;margin-right:65px}
+.search #pershingxsearch .search-field button[type="submit"]{display:none}
+.search #pershingxsearch .search-field .material-icons{position:absolute;padding-left:8px;top:11px}
+.search #pershingxsearch .search-field input[type="text"]{padding-left:37px;border:1px solid #ccc;font-size:16px;font-family:'Akkurat Pro'}
+.search #pershingxsearch .search-results-list li{width:50%;float:left;display:block;border:0}
+.search #pershingxsearch .search-results-list li.odd{margin-right:82px}
+.search #pershingxsearch .search-results-list li.even{margin-left:82px}
+.search #pershingxsearch .search-results-list li .info{padding-right:80px}
+.search #pershingxsearch section.search-results-pershingx{width:100%;float:left}
+.search #pershingxsearch .search-pagination{float:left;display:block;position:relative;padding:0}
+.search #pershingxsearch .search-pagination ul{max-width:100%}
+.search #pershingxsearch .search-pagination ul li{display:block}
+.search #pershingxsearch .search-pagination label{padding-right:15px;font-weight:400}
+.search #pershingxsearch .search-results-list .search-results--thumbnail{float:left;max-width:220px;width:220px;margin:0;padding-bottom:80px}
+.search #pershingxsearch .search-results-list .search-results--thumbnail img{max-width:198px}
+.search #pershingxsearch .learn-more a:after{content:"\e5c8";font-family:Material Icons;vertical-align:middle;font-size:18px;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;-webkit-font-feature-settings:"liga";font-feature-settings:"liga" 1;color:#9aa8a6}
+.search #pershingxsearch .learn-more a,.search #pershingxsearch .learn-more a:active,.search #pershingxsearch .learn-more a:focus,.search #pershingxsearch .learn-more a:hover,.search #pershingxsearch .learn-more a:visited{font-weight:400;font-size:16px;line-height:24px}
+.search #pershingxsearch a,.search #pershingxsearch a:active,.search #pershingxsearch a:focus,.search #pershingxsearch a:hover,.search #pershingxsearch a:visited{color:#011f2c;font-size:24px;font-weight:300;line-height:32px}
+.search #pershingxsearch .search-showing{display:none}
+.search #pershingxsearch .info h4{margin-bottom:16px}
+.search #pershingxsearch .search-field .search-field--wrapper{height:auto;min-height:auto;margin-bottom:48px}
+@media(min-width:1025px){.search #pershingxsearch .search-results-list li{min-height:150px}
+}
+@media(min-width:768px) and (max-width:1024px){.search #pershingxsearch .search-results-list li.odd{margin-right:0}
+.search #pershingxsearch .search-results-list li.even{margin-left:0}
+.search #pershingxsearch .search-results-list li{width:100%;padding:32px 0}
+.search #pershingxsearch .search-field{width:50%;float:left;margin-right:10%}
+.search #pershingxsearch #pershingx-filter-select{margin-left:0;margin-bottom:32px;float:left}
+.search #pershingxsearch a,.search #pershingxsearch a:active,.search #pershingxsearch a:focus,.search #pershingxsearch a:hover,.search #pershingxsearch a:visited{font-size:20px;line-height:28px}
+.search #pershingxsearch .search-pagination{padding-top:32px}
+}
+@media(max-width:767px){.search #pershingxsearch .search-results-list li.odd{margin-right:0}
+.search #pershingxsearch .search-results-list li.even{margin-left:0}
+.search #pershingxsearch .search-results-list li{width:100%;padding:16px 0}
+.search #pershingxsearch .search-field{width:100%;float:left;margin-right:0}
+.search #pershingxsearch .search-filters{display:block}
+.search #pershingxsearch #pershingx-filter-select{display:none}
+.search #pershingxsearch a,.search #pershingxsearch a:active,.search #pershingxsearch a:focus,.search #pershingxsearch a:hover,.search #pershingxsearch a:visited{font-size:20px;line-height:28px}
+.search #pershingxsearch .search-pagination{padding-top:32px}
+.search #pershingxsearch .search-filters .select-wrapper .default-list-option li{padding:8px}
+.search #pershingxsearch .search-filters .select-wrapper .selected-btn{padding:8px;background-color:#fff;color:#011f2c}
+.search #pershingxsearch .search-filters .select-wrapper .selected-btn:after{top:3px;right:0;color:#011f2c}
+.search #pershingxsearch .selected-btn span,.search #pershingxsearch .default-list-option li span{border-bottom:2px solid #ce6209}
+.search #pershingxsearch .default-list-option:before{top:3px;right:12px}
+}
+.pershing-x-template .cq-placeholder,.pershing-x-template .new{height:0}

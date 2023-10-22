@@ -1,0 +1,59 @@
+.socialsharing a:last-child{margin-bottom:0}
+.socialsharing.social-flex-horizontal .social-flex{flex-direction:row;justify-content:space-between}
+@media(max-width:767px){.socialsharing.social-flex-horizontal .social-flex{justify-content:flex-start}
+}
+.socialsharing.socialsharing__sticky{position:absolute;width:78px !important;top:0;height:100%;right:0;z-index:2;transition:.25s ease top}
+.socialsharing.socialsharing__sticky .social-container{position:sticky;top:5px;transition:.25s ease top}
+.socialsharing.socialsharing__sticky.socialBar-header-vis .social-container{top:105px}
+.socialsharing.socialsharing__sticky.socialBar-subnav-vis .social-container{top:70px;right:0}
+.socialsharing.socialsharing__sticky.socialBar-subnav-vis.socialBar-header-vis .social-container{top:175px}
+@media(max-width:767px){.socialsharing.socialsharing__sticky.socialBar-subnav-vis.socialBar-header-vis .social-container{top:145px}
+}
+@media(max-width:767px){.socialsharing.socialsharing__sticky .social-flex{flex-direction:column;align-items:center}
+}
+@media(max-width:767px){.socialsharing.socialsharing__sticky a{margin-bottom:30px;margin-right:0}
+.socialsharing.socialsharing__sticky a:last-child{margin-bottom:0}
+}
+@media(max-width:1024px){.socialsharing.socialsharing__sticky{right:5px}
+}
+.socialsharing .social-expand-container{width:78px;display:flex;justify-content:center;border-radius:63px;padding-top:36px;padding-bottom:36px}
+.socialsharing .social-expand-container.social-bg-present{background:#f6f6f6}
+.socialsharing .social-flex{display:flex;flex-direction:column}
+@media(max-width:767px){.socialsharing .social-flex{flex-direction:row;align-items:center}
+}
+.socialsharing a{cursor:pointer;margin-bottom:30px;width:24px}
+@media(max-width:767px){.socialsharing a{margin-bottom:0;margin-right:24px}
+}
+.socialsharing a.share{display:block}
+.socialsharing a.noshare{display:none}
+.socialsharing .share-expand-collapse{background-color:transparent;border:0;display:flex;justify-content:flex-start;cursor:pointer;margin-bottom:34px;color:#999;padding:0;padding-left:4px}
+.socialsharing .share-expand-collapse::after{font-family:"Material Icons";content:"close"}
+.socialsharing .share-expand-trigger{background-color:transparent;border:0;display:flex;justify-content:flex-start;cursor:pointer;color:#999}
+.socialsharing .share-expand-trigger::after{content:url("../images/bny-share.svg")}
+@media(max-width:1024px){.socialsharing .share-expand-trigger.expand.desktop{display:none}
+}
+@media(max-width:767px){.socialsharing .share-expand-trigger.expand.tablet{display:none}
+}
+@media(min-width:1024px){.socialsharing .share-expand-trigger.expand.tablet{display:none}
+}
+@media(min-width:768px){.socialsharing .share-expand-trigger.expand.mobile{display:none}
+}
+.socialsharing .hide{display:none}
+@media(min-width:1025px){.socialsharing.hide-desktop{display:none !important}
+}
+@media(min-width:768px) and (max-width:1024px){.socialsharing.hide-tablet{display:none !important}
+}
+@media(max-width:767px){.socialsharing.hide-mobile{display:none !important}
+}
+.socialsharing .linkedin{background:url(../images/LinkedIn1.svg);display:block;width:30px;height:27px;position:relative;top:-2px}
+.socialsharing .facebook{background:url(../images/Facebook1.svg);display:block;width:30px;height:26px;position:relative;top:-2px}
+.socialsharing .twitter{background:url(../images/Twitter1.svg);display:block;width:21px;height:19px;position:relative;top:4px;left:3px}
+.socialsharing .email{background:url(../images/email.svg);display:block;width:22px;height:22px}
+.socialsharing .print{background:url(../images/print.svg);display:block;width:21px;height:21px}
+.socialsharing.dark-theme .linkedin{background:url(../images/LinkedIn_white_22x22.svg);display:block;width:21px;height:21px;position:static;background-size:21px}
+.socialsharing.dark-theme .facebook{background:url(../images/Facebook_white_22x22.svg);display:block;width:21px;height:21px;position:static;background-size:21px}
+.socialsharing.dark-theme .twitter{background:url(../images/Twitter_white_22x22.svg);display:block;width:22px;height:18px;top:2px}
+.socialsharing.dark-theme .email{background:url(../images/mail_white_22x22.svg);display:block;width:21px;height:18px;background-size:21px}
+.socialsharing.dark-theme .print{background:url(../images/print_white_22x22.svg);display:block;width:21px;height:19px;background-size:21px}
+.socialsharing.socialsharing__sticky.scrollTop.socialBar-subnav-vis .social-container{top:173px}
+.socialsharing.socialsharing__sticky.topZero{top:0}
