@@ -1,0 +1,61 @@
+﻿item,category,gender,price,stock_count,age_group
+Silk Saree,Clothing,F,5000,10,Adult
+Gold Necklace,Jewelry,F,15000,5,Adult
+Copper Pooja Thali,Home Decor,U,1000,20,Adult
+Handwoven Shawl,Clothing,F,3000,15,Adult
+Silver Anklet,Jewelry,F,8000,8,Adult
+Brass Lamp,Home Decor,U,2000,12,Adult
+Cotton Kurti,Clothing,F,2500,18,Adult
+Pearl Earrings,Jewelry,F,12000,10,Adult
+Wooden Wall Clock,Home Decor,U,1500,25,Adult
+Leather Wallet,Accessories,M,3000,7,Adult
+Chanderi Saree,Clothing,F,6000,14,Adult
+Diamond Ring,Jewelry,F,20000,4,Adult
+Marble Ganesha Idol,Home Decor,U,2500,20,Adult
+Linen Shirt,Clothing,M,3500,10,Adult
+Sapphire Necklace,Jewelry,F,18000,6,Adult
+Terracotta Showpiece,Home Decor,U,1200,15,Adult
+Denim Jeans,Clothing,M,2800,12,Adult
+Ruby Bracelet,Jewelry,F,16000,5,Adult
+Bamboo Wall Art,Home Decor,U,1800,18,Adult
+Leather Backpack,Accessories,U,4000,9,Adult
+Kanjivaram Saree,Clothing,F,8000,10,Adult
+Platinum Ring,Jewelry,F,25000,3,Adult
+Antique Vase,Home Decor,U,3000,15,Adult
+Tuxedo Suit,Clothing,M,7000,8,Adult
+Emerald Necklace,Jewelry,F,22000,5,Adult
+Rustic Wall Shelf,Home Decor,U,1800,20,Adult
+Canvas Backpack,Accessories,U,3500,12,Adult
+Banarasi Silk Saree,Clothing,F,7000,14,Adult
+White Gold Bracelet,Jewelry,F,18000,7,Adult
+Modern Sculpture,Home Decor,U,2000,22,Adult
+Toy Train,Clothing,U,1000,5,Child
+Remote Control Car,Toys,U,2500,8,Child
+Coloring Book,Books,U,500,15,Child
+Puzzle Set,Toys,U,800,12,Child
+Musical Mobile,Toys,U,1200,10,Child
+Building Blocks,Toys,U,1000,18,Child
+Barbie Doll,Toys,U,1500,6,Child
+Toy Kitchen Set,Toys,U,2000,5,Child
+Play Dough Set,Toys,U,600,20,Child
+Superhero Action Figures,Toys,U,1800,8,Child
+Teenager's Fashion Magazine,Books,U,300,15,Teenager
+Skateboard,Sports,U,3500,10,Teenager
+Headphones,Electronics,U,2000,12,Teenager
+Gaming Mouse,Electronics,U,1200,8,Teenager
+Graphic Novels,Books,U,600,15,Teenager
+Sports Jersey,Sports,U,1500,10,Teenager
+Movie Tickets,Entertainment,U,500,20,Teenager
+Canvas Art Set,Art,U,800,15,Teenager
+Concert Tickets,Entertainment,U,1000,10,Teenager
+Musical Instrument Set,Music,U,2500,8,Teenager
+Senior's Puzzle Book,Books,U,400,15,Senior
+Walking Cane,Health,U,300,20,Senior
+Magnifying Glass,Tools,U,200,18,Senior
+Comfortable Slippers,Clothing,U,700,15,Senior
+Large-Print Playing Cards,Games,U,250,12,Senior
+Warm Blanket,Home Decor,U,1000,10,Senior
+Anti-Glare Reading Glasses,Health,U,350,15,Senior
+Classic Literature Collection,Books,U,1200,8,Senior
+Memory Foam Pillow,Home Decor,U,800,12,Senior
+Gardening Kit,Hobbies,U,1500,10,Senior
